@@ -22,6 +22,7 @@
     "/src",
     "/svg.select.js.d.ts"
   ],
+  "module": "src/svg.resize.js",
   "scripts": {
     "build": "npm run fix && npm run rollup",
     "fix": "npx eslint ./src --fix",
